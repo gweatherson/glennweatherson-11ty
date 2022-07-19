@@ -7,11 +7,11 @@
     "subtitle": "A place where I can jot down throughts among other things.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://glennweatherson.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://glennweatherson.com/feed/feed.json"
   },
   "author": {
     "name": "Glenn Weatherson",
