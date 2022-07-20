@@ -1,16 +1,13 @@
 ---
-layout: layouts/post.njk
+layout: layouts/page.njk
 title: About Me
-templateClass: tmpl-post
+templateClass: tmpl-page
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 3
 ---
 
-I'm a person living in the high desert of Reno, Nevada. Don't be fooled, we're surrounded by pine trees, winding rivers, and snow melt lakes. Of course, all the dry stuff too. I work at [970 Design](https://970design.com).
-
-## What do you really do?
-I turn neat designs into functioning websites for people to use.
+I'm a person living in Reno, Nevada who works as a web developer over at [970 Design](https://970design.com).
 
 ## Extracurricular Internet
 Photo blog: [glennscrap.com](https://glennscrap.com)
