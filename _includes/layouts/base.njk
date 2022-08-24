@@ -20,14 +20,10 @@
   <body>
     <div class="container">
       <header>
-        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-
-        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
         <ul class="nav">
         {%- for entry in collections.all | eleventyNavigation %}
           <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
         {%- endfor %}
-          <li class="nav-item"><a href="{{ '/feed/feed.xml' | url }}">RSS</a></li>
         </ul>
       </header>
 
@@ -36,8 +32,16 @@
         {{ content | safe }}
       </main>
 
-      <footer></footer>
+      <footer>
+        Anything on this site can be taken, chewed up, and excreted at your own pace.
+
+        <ul>
+          <li><a href="mailto:gweatherson@gmail.com">gweatherson@gmail.com</a></li>
+          <li><a href="https://twitter.com/whoocareesssss">Twitter</a></li>
+          <li><a href="https://glass.photo/gweatherson">Photos</a></li>
+          <li><a href="{{ '/feed/feed.xml' | url }}">RSS</a></li>
+        </ul>
+      </footer>
     </div>
-    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
